@@ -9,6 +9,7 @@ namespace WebKNPrograAvanzada.Controllers
 {
     public class LoginController : Controller
     {
+        //Esto es una instancia
         Usuario claseUsuario = new Usuario();
 
         public ActionResult IniciarSesion()
